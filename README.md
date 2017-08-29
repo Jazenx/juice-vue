@@ -1,6 +1,6 @@
-# juice-vue
+# tiger-vue
 
-> zean's offical website
+> for zean's offical website
 
 ## Build Setup
 
