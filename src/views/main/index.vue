@@ -3,13 +3,19 @@
     <el-row>
       <el-col :span="24">
         <div class="main-header">
-          <el-button>注册</el-button>
         </div>
       </el-col>
     </el-row>
      <el-row>
       <el-col :span="24">
         <carousel></carousel>
+      </el-col>
+    </el-row>
+     <el-row>
+      <el-col :span="24">
+        <div style="height: 10vh;background: #F5F5DC;text">
+          <div style="height: 8vh;padding: auto;background: #808080;width:80%"></div>
+        </div>
       </el-col>
     </el-row>
   </div>
