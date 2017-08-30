@@ -18,19 +18,19 @@
         </div>
       </el-col>
     </el-row>
-    <!-- <el-row>
+    <el-row>
       <el-col :span="24">
-        <flopCard></flopCard>
+        <flopcard></flopcard>
       </el-col>
-    </el-row> -->
+    </el-row>
   </div>
 </template>
 
 <script>
 import carousel from './carousel'
-// import flopCard from './flop'
+import flopcard from './flop'
 export default {
-  components: { carousel },
+  components: { carousel, flopcard },
   name: 'mainContainer',
   data() {
     return {

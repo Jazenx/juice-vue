@@ -1,6 +1,6 @@
 <template>
   <div class="card-container">
-    <div class="card" v-for="cardPic in cardPics" :key="cardPic">
+    <div class="card" v-for="cardPic in cardPics" :key="cardPic.backUrl">
       <div class="card-back"><img :src="cardPic.backUrl" /></div>
       <div class="card-font"><img :src="cardPic.fontUrl" /></div>
     </div>
@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: 'flopCard',
+  name: 'flopcard',
   data() {
     return {
       cardPics: [

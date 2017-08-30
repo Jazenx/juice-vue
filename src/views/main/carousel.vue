@@ -1,7 +1,7 @@
 <template>
   <div class="carousel-container">
     <el-carousel height="90vh" indicator-position="none">
-      <el-carousel-item v-for="carPic in carPic" :key="carPic">
+      <el-carousel-item v-for="carPic in carPic" :key="carPic.picUrl">
         <img class="carousel-picture" :src="carPic.picUrl">
       </el-carousel-item>
     </el-carousel>
