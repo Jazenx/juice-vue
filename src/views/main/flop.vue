@@ -31,10 +31,6 @@ export default {
         {
           backUrl: 'http://9yin.woniu.com/static/web201588/images/card2-back.png',
           fontUrl: 'http://9yin.woniu.com/static/web201588/images/card2.png'
-        },
-        {
-          backUrl: 'http://9yin.woniu.com/static/web201588/images/card1-back.png',
-          fontUrl: 'http://9yin.woniu.com/static/web201588/images/card1.png'
         }
       ]
     }
@@ -56,45 +52,43 @@ export default {
     width: 200px;
     height: 380px;
     float: left;
-    .card-font,
-    .card-back {
-      position: absolute;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-      -webkit-transform-style: preserve-3d;
-      backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
-      -moz-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-    }
-    .card-font,
-    .card-back {
-      -webkit-transform: rotateY( 0deg);
-      -moz-transform: rotateY( 0deg);
-      -o-transform: rotateY( 0deg);
-      transform: rotateY( 0deg);
-    }
-    .card-font,
-    .card-back {
-      -webkit-transform: rotateY( -180deg);
-      -moz-transform: rotateY( -180deg);
-      -o-transform: rotateY( -180deg);
-      transform: rotateY( -180deg);
-    }
+  }
+  .card-font,
+  .card-back {
+    position: absolute;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+  .card-font {
+    -webkit-transform: rotateY( 0deg);
+    -moz-transform: rotateY( 0deg);
+    -o-transform: rotateY( 0deg);
+    transform: rotateY( 0deg);
+  }
+  .card-back {
+    -webkit-transform: rotateY( -180deg);
+    -moz-transform: rotateY( -180deg);
+    -o-transform: rotateY( -180deg);
+    transform: rotateY( -180deg);
+  }
 
-    .card:hover .card-font {
-      -webkit-transform: rotateY( 180deg);
-      -moz-transform: rotateY( 180deg);
-      -o-transform: rotateY( 180deg);
-      transform: rotateY( 180deg);
-    }
+  .card:hover .card-font {
+    -webkit-transform: rotateY( 180deg);
+    -moz-transform: rotateY( 180deg);
+    -o-transform: rotateY( 180deg);
+    transform: rotateY( 180deg);
+  }
 
-    .card:hover .card-back {
-      -webkit-transform: rotateY( 0deg);
-      -moz-transform: rotateY( 0deg);
-      -o-transform: rotateY( 0deg);
-      transform: rotateY( 0deg);
-    }
+  .card:hover .card-back {
+    -webkit-transform: rotateY( 0deg);
+    -moz-transform: rotateY( 0deg);
+    -o-transform: rotateY( 0deg);
+    transform: rotateY( 0deg);
   }
 }
 </style>
