@@ -13,9 +13,9 @@
     </el-row>
     <el-row>
       <el-col :span="24">
-        <div style="height: 10vh;background: #F5F5DC;  display:flex;align-items:center;justify-content: center;">
+        <!-- <div style="height: 10vh;background: #F5F5DC;  display:flex;align-items:center;justify-content: center;">
           <div style="height: 8vh;padding: auto;background: #808080;width:80%"></div>
-        </div>
+        </div> -->
       </el-col>
     </el-row>
     <el-row>
