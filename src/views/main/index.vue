@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="24">
         <div class="main-header">
-          <el-button>Test Ajax</el-button>
+          <el-button @click="getAjaxData">Test Ajax</el-button>
         </div>
       </el-col>
     </el-row>
@@ -45,10 +45,10 @@ export default {
     getAjaxData() {
       getMainAjaxData().then(response => {
         this.ajaxData = response.data;
+        console.log(this.ajaxData);
       }).catch(err => {
         console.log(err);
       })
-      console.log('caonima');
     }
   }
 }

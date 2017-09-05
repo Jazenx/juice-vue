@@ -1,4 +1,4 @@
-import fetch from 'utils/tigerFetch';
+import fetch from 'utils/fetch';
 
 export function getMainAjaxData() {
   return fetch({

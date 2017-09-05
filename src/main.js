@@ -8,7 +8,7 @@ import 'element-ui/lib/theme-default/index.css'
 import '@/assets/iconfont/iconfont' // iconfont
 import IconSvg from '@/components/Icon-svg'// svg组件
 import * as filters from '@/filters' // 全局filter
-import '@/mock/index.js'  // 该项目所有请求使用mockjs模拟
+// import '@/mock/index.js'  // 该项目所有请求使用mockjs模拟
 
 
 // register globally
