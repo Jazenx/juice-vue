@@ -24,6 +24,11 @@
         <flopcard></flopcard>
       </el-col>
     </el-row>
+      <el-row>
+      <el-col :span="24">
+        <flopcard></flopcard>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
