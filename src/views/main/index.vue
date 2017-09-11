@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="24">
         <div class="main-header">
-          <!-- <el-button @click="getAjaxData">Test Ajax</el-button> -->
+          <el-button @click="getAjaxData">Test Ajax</el-button>
         </div>
       </el-col>
     </el-row>
@@ -25,7 +25,7 @@
       <el-col :span="6" :offset="4">
         <div class="box2-info1">
           <div class="box2-info1-detail" v-for="item in 3" :key="item">
-            
+
           </div>
           <div class="box2-small1">
             <div class="box2-small-detail" v-for="item in 2" :key="item">
