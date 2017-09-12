@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="24">
         <div class="main-header">
-          <el-button @click="getAjaxData">Test Ajax</el-button>
+          <!-- <el-button @click="getAjaxData">Test Ajax</el-button> -->
         </div>
       </el-col>
     </el-row>
@@ -18,7 +18,7 @@
     </el-row>
     <el-row class="main-box1">
       <el-col :span="24">
-        <div></div>
+        <div> </div>
       </el-col>
     </el-row>
     <el-row class="main-box2">
