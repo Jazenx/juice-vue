@@ -16,7 +16,7 @@ Vue.use(Router);
 export const constantRouterMap = [
   {
     path: '/',
-    component: _import('main/index'),
+    component: _import('gsk/index'),
     hidden: true
   }
 ]
